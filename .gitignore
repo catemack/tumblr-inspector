@@ -22,3 +22,5 @@
 
 # Ignore IDE files
 .idea
+
+/config/omniauth.yml

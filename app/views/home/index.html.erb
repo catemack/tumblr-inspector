@@ -1,0 +1,6 @@
+<%= form_tag followers_path, class: 'form-signin' do |f| %>
+    <h4>User</h4>
+    <%= text_field_tag :user, params[:user], autofocus: true, class: 'form-control', placeholder: 'user', required: true %>.tumblr.com
+
+    <%= submit_tag 'Submit', class: 'btn btn-lg btn-primary btn-block' %>
+<% end %>
